@@ -15,6 +15,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    width: 100%;
+}
+
 .purple {
     color: #7342d6;
 }
@@ -23,6 +27,7 @@ a {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 
@@ -32,7 +37,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+    margin: 0 auto;
 }
 
 ul {
@@ -81,13 +86,102 @@ li{
     
 }  
 
+/*
+HEADER
+*/
+
 .header_container {
     height: 100%;
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
-  
+    padding-bottom: 6rem;
+    padding-top: 6rem;
 }
-
+  
 .header_description {
     width: 40%;
+}
+
+.header_title {
+    --tw-text-opacity: 1;
+    color: rgb(26 32 44 / var(--tw-text-opacity));
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.header_para {
+    --tw-text-opacity: 1;
+    color: rgb(36 62 99 / var(--tw-text-opacity));
+    font-size: 1.125rem;
+    line-height: 24px;
+    margin: 32px 0;
+}
+
+.email_input {
+    max-width: 28rem;
+    width: 100%;
+    position: relative;
+}
+
+.header__email--input{
+    border: 2px solid rgb(226, 232, 240);
+    padding: 1.5rem 0;
+    padding-right: 12rem;
+    padding-left: 2rem;
+    border-radius: 9999px;
+    font-weight: 500;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+}
+
+.header_input--btn{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0.5rem 0.5rem;
+    padding: 1rem 0;
+    border-radius: 9999px;
+    width: 10rem;
+    line-height: 1;
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(247 250 252 / var(--tw-text-opacity));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    outline: none;
+}
+
+.trusted__cust {
+    margin-top: 3rem;
+}
+
+.trusted_cust-para {
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    --tw-text-opacity: 1;
+    color: rgb(160 174 192 / var(--tw-text-opacity));
+}
+
+.header_desc_img {
+    padding-right: 4rem;
+    margin-top: 1rem;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.header_img{
+    width: 60%;
+}
+
+.header_img-wrapper {
+    max-width: 48rem;
 }
