@@ -30,6 +30,9 @@ img {
     
 }
 
+/*
+NAV
+*/
 
 .nav__container {
     width: 100%;
@@ -86,8 +89,10 @@ li{
     
 }  
 
+
+
 /*
-HEADER
+Landing page 
 */
 
 .header_container {
@@ -184,4 +189,42 @@ HEADER
 
 .header_img-wrapper {
     max-width: 48rem;
+}
+
+/*
+FEATURES
+*/
+
+.features__container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    max-width: 1024px;
+    flex-flow: column wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.title_features {
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.service__title {
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+}
+
+.service_para {
+    margin-top: 1rem;
+    max-width: 36rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.625;
+    width: 100%;
+    text-align: center;
 }
