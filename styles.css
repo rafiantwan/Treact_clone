@@ -428,3 +428,103 @@ Steps
     --tw-text-opacity: 1;
     color: rgb(113 128 150 / var(--tw-text-opacity));
 }
+
+/*
+VALUES
+*/
+
+.values__contaier {
+    flex-direction: row;
+    display: flex;
+}
+
+.valuse__left {
+    margin-right: 4rem;
+    flex-direction: column;
+    width: 50%;
+}
+
+.values__title {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    --tw-text-opacity: 1;
+    color: rgb(100 21 255 / var(--tw-text-opacity));
+}
+
+.values__principles {
+    margin-top: 1rem;
+    text-align: left;
+    font-size: 3rem;
+    --tw-text-opacity: 1;
+    font-weight: 900;
+    color: rgb(36 62 99 / var(--tw-text-opacity));
+}
+
+.values__para {
+    margin-top: 2rem;
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.625;
+    --tw-text-opacity: 1;
+    color: rgb(124 139 161 / var(--tw-text-opacity));
+}
+
+.values__aff--prof {
+    flex-direction: row;
+    display: flex;
+}
+
+.values__aff__wrapper {
+    margin-top: 2rem;
+    margin-right: 2rem;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+.dollar__sign {
+    height: 36px;
+    width: 36px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(154 230 180 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(39 103 73 / var(--tw-text-opacity));
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 9999px;
+    border-width: 0px;
+}
+
+.values__aff__title {
+    margin-left: 0.75rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(36 62 99 / var(--tw-text-opacity));
+}
+
+.values__aff__desc {
+    margin-top: 1rem;
+    text-align: left;
+    line-height: 1.625;
+    --tw-text-opacity: 1;
+    color: rgb(113 128 150 / var(--tw-text-opacity));
+}
+
+.briefcase__sign {
+    height: 36px;
+    width: 36px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(254 178 178 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(155 44 44 / var(--tw-text-opacity));
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 9999px;
+    border-width: 0px;
+}
+
+.values__right {
+    width: 50%;
+}
