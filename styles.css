@@ -36,6 +36,18 @@ button {
     cursor: pointer;
 }
 
+ul {
+    list-style: none;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+div {
+    display: block;
+}
 /*
 NAV
 */
@@ -48,14 +60,6 @@ NAV
     align-items: center;
     margin: 0 auto;
     padding-top: 1rem;
-}
-
-ul {
-    display: flex;
-}
-
-li{
-   list-style-type: none; 
 }
 
 .logo {
@@ -733,4 +737,50 @@ PRICING
 /*
 Footer
 */
+
+.footer__container {
+    position: relative;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-bottom: -2rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
+    padding: 5rem 2rem;
+    --tw-text-opacity: 1;
+    color: rgb(247 250 252 / var(--tw-text-opacity));
+}
+
+
+.footer__links {
+    margin-top: -3rem;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+
+.footer__link__titles {
+    margin-top: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+    
+}
+
+.footer__link__MT {
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.footer__link__box {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%/5);
+    align-items: center;
+}
 
